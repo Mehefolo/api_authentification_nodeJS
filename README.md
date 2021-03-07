@@ -1,21 +1,9 @@
-# nodejs-restful-api
-![RESTful API design with Node.js](https://cdn-images-1.medium.com/max/2000/1*jjYC9tuf4C3HkHCP5PcKTA.jpeg "RESTful API design with Node.js")
+Lien permettant acceder au ressource de l'API d'authentification Json Web Token :
 
-How to create a RESTful CRUD API using Nodejs?
+Les routes :
 
-This tutorial will demo how to set up a bare bones 
-API using mongodb as the database.
+/api/auth/connexion :  Permet de se connecter 
+/api/auth/recherche :  Permet de retrouver un utilisateur via son jeton acces avec un paramètre d'entête "x-access-token"
+/api/auth/deconnexion : Permet de se deconnecter 
 
-It consist of a User model and controller. The model
-defines the data, and the controller will contain all 
-the business logic needed to interact with the database. 
-
-It has a db file which will be used to
-connect the app to the database, and an app file used
-for bootstrapping the application itself.
-
-The server file is used to spin up the server and tells the
-app to listen on a specific port.
-
-Full tutorial can be found at:
-https://hackernoon.com/restful-api-design-with-node-js-26ccf66eab09#.s5l66zyeu
+https://api-jwt-nodejs.herokuapp.com/
