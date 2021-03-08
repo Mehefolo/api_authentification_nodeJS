@@ -15,5 +15,8 @@ https://api-jwt-nodejs.herokuapp.com/
 
 Run projet :
 ````
+npm install
+
+
 node server.js
 ````
